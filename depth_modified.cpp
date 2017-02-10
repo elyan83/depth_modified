@@ -1028,28 +1028,28 @@ int main
     
     
     // Define the Search rules
-    SE_Search_Rule rules[] =
-    {
-        SE_AND
-        (
-         SE_FIELD_RANGE
-         (
-          CD_SURFACE_LOCATION,
-          geodetic_latitude,
-          &latitude1,
-          &latitude2,
-          SE_SEARCH_VAL_TYP_LONG_FLOAT //ERROR
-          ),
-         SE_FIELD_RANGE
-         (
-          CD_SURFACE_LOCATION,
-          geodetic_longitude,
-          &longitude1,
-          &longitude2,
-          SE_SEARCH_VAL_TYP_LONG_FLOAT //ERROR
-          )
-         )
-    };
+    // SE_Search_Rule rules[] =
+    // {
+    //     SE_AND
+    //     (
+    //      SE_FIELD_RANGE
+    //      (
+    //       CD_SURFACE_LOCATION,
+    //       geodetic_latitude,
+    //       &latitude1,
+    //       &latitude2,
+    //       SE_SEARCH_VAL_TYP_LONG_FLOAT //ERROR
+    //       ),
+    //      SE_FIELD_RANGE
+    //      (
+    //       CD_SURFACE_LOCATION,
+    //       geodetic_longitude,
+    //       &longitude1,
+    //       &longitude2,
+    //       SE_SEARCH_VAL_TYP_LONG_FLOAT //ERROR
+    //       )
+    //      )
+    // };
 
     //log(BaseToolString, ToolName, ToolVersionString, SedrisVersionString);
 
